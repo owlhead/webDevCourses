@@ -10,18 +10,18 @@ h1 {
 	text-align: center;
 }
 
-.container {
+div.container {
 	float: left;
 }
 
-div {
+div.container > div {
 	border: 1px solid black;
 	background-color: #D3D3D3;
 	margin: 5px;
 	position: relative;
 }
 
-h2 {
+div.container h2 {
 	text-align: center;
 	border: 1px solid black;
 	margin-top: 0px;
@@ -29,10 +29,11 @@ h2 {
 	position: absolute;
 	top: 0px;
 	right: 0px;
+	border-top: none;
 	/*float: right;*/
 }
 
-div > p {
+div.container p {
 	clear: right;
 	padding: 5px;
 	padding-top: 20px;
