@@ -6,22 +6,23 @@ body {
 	font-family: Georgia, Times, Times New Roman, serif;
 }
 
+/*
 h1 {
 	text-align: center;
 }
 
-div.container {
+div.menu_item {
 	float: left;
 }
 
-div.container > div {
+div.menu_item > div {
 	border: 1px solid black;
 	background-color: #D3D3D3;
 	margin: 5px;
 	position: relative;
 }
 
-div.container h2 {
+div.menu_item h2 {
 	text-align: center;
 	border: 1px solid black;
 	margin-top: 0px;
@@ -30,10 +31,9 @@ div.container h2 {
 	top: 0px;
 	right: 0px;
 	border-top: none;
-	/*float: right;*/
 }
 
-div.container p {
+div.menu_item p {
 	clear: right;
 	padding: 5px;
 	padding-top: 20px;
@@ -52,7 +52,7 @@ div.container p {
 }
 
 @media screen and (min-width: 992px){
-	.container {
+	.menu_item {
 		width: 33.33%;
 	}	
 }
@@ -70,7 +70,9 @@ div.container p {
 }
 
 @media screen and (max-width: 767px ){
-	.container {
+	.menu_item {
 		width: 100%;
 	}	
 }
+
+*/
