@@ -6,6 +6,77 @@ body {
 	font-family: Georgia, Times, Times New Roman, serif;
 }
 
+.navbar-brand {
+	font-size: 2em;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+/* Start Header */
+
+#nav_Menu .nav-link {
+	text-align: center;
+}
+
+/* End Header */
+
+/* Start Body */
+
+div.menu_item {
+	margin-top: 30px 0 auto 0;
+}
+
+div.menu_item > div > h2 {
+	padding-top: 5px;
+	font-weight: bold;
+	
+}
+div.menu_item > div {
+	background-color: #D3D3D3;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 1px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+
+@media (min-width:768px) and (max-width: 1024px) {
+	.navbar-brand {
+		font-size: 3em;
+	}
+
+	div.menu_item {
+		margin-top: 20px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom: 20px;
+		font-size: 1.8em;
+	}
+}
+
+@media (max-width:576px) {
+	.navbar-brand {
+		font-size: 2em;
+	}
+
+	#nav_Menu .nav-link {
+		font-size: 1.2em;
+	}
+
+	div.menu_item {
+		margin-left: 15px;
+		margin-right: 15px;
+		margin-bottom: 20px;
+		font-size: 1.1em;
+	}
+}
+
+
+/* End Body */
+
 /*
 h1 {
 	text-align: center;

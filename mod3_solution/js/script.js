@@ -1,7 +1,7 @@
 window.onload = function() {
     var para_ = document.getElementsByClassName('content_text');
     var file = new XMLHttpRequest();
-    file.open('GET', 'lorem_ipsum_600.txt', true);
+    file.open('GET', 'lorem_ipsum_400.txt', true);
     file.onreadystatechange = function() {
         if (file.readyState === 4 ) { // make sure the document is ready to parse
             var text_ = file.responseText;
